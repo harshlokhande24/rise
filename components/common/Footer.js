@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
               <b>Address:</b> Pimpri Chinchwad College of Engineering<br/>
               Akurdi, Sector No. 26, 411044 <br/>
-              <b>Email:</b> pccoeieee@gmail.com<br/><b>Mobile:</b> +919689584487
+              <b>Email:</b> pccoeieee@gmail.com<br/>
             </div>
             <div className="text-sm text-color mb-10 f-f-l self-center">
               <span className="text-sm">

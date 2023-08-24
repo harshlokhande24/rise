@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>Project RISE</title>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/logo1.png" />
         {/* Meta Tags Dynamically generated */}
         <meta name="title" content="Project RISE" />
         <meta

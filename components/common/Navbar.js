@@ -41,12 +41,12 @@ export default function Navbar() {
         <ul class="flex items-center space-x-8 lg:flex">
           <li>
             <a
-              href="#stats"
-              aria-label="Statistics"
-              title="Statistics"
+              href="#register"
+              aria-label="Register"
+              title="Register"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Statistics
+              Register
             </a>
           </li>
           <li>
