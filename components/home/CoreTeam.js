@@ -3,7 +3,7 @@ import React from "react";
 export default function CoreTeam() {
   const cc = [
     {
-      avatar: "/team/sonali-patil.jpeg",
+      avatar: "/team/sonali_patil.jpeg",
       name: "Dr. Sonali Patil",
       position: "Project Lead",
     },
