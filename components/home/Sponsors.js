@@ -9,16 +9,20 @@ const Sponsors = () => {
   ];
 
   return (
-    <section className="sponsors mt-10 md:mt-14" id="sponsors">
-      <h2 className="text-center text-3xl font-semibold mb-8">Our Sponsors</h2>
-      <div className="flex justify-center items-center">
+    <section className="sponsors mt-6 md:mt-14" id="sponsors">
+      <h2 className="text-center text-2xl md:text-3xl font-semibold mb-4 md:mb-8">Our Sponsors</h2>
+      <div className="flex flex-wrap justify-center items-center">
         {sponsorImages.map((image, index) => (
-          <img
+          <div
             key={index}
-            src={image}
-            alt={`Sponsor ${index + 1}`}
-            className="w-40 h-40 mx-4 object-contain" // Adjusted size to w-32 and h-32
-          />
+            className="w-1/2 md:w-1/4 px-4 py-2"
+          >
+            <img
+              src={image}
+              alt={`Sponsor ${index + 1}`}
+              className="w-full h-auto object-contain"
+            />
+          </div>
         ))}
       </div>
     </section>
